@@ -2,7 +2,7 @@ import React from "react";
 
 export function NavBar(props) {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a className="navbar-brand bg-dark" href="#">
 				Start Booststrap
 			</a>
@@ -28,7 +28,7 @@ export function NavBar(props) {
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#">
-							Link
+							About
 						</a>
 					</li>
 					<li className="nav-item dropdown">
@@ -40,7 +40,7 @@ export function NavBar(props) {
 							data-toggle="dropdown"
 							aria-haspopup="true"
 							aria-expanded="false">
-							Dropdown
+							Service
 						</a>
 						<div
 							className="dropdown-menu"
@@ -63,19 +63,6 @@ export function NavBar(props) {
 						</a>
 					</li>
 				</ul>
-				<form className="form-inline my-2 my-lg-0">
-					<input
-						className="form-control mr-sm-2"
-						type="search"
-						placeholder="Search"
-						aria-label="Search"
-					/>
-					<button
-						className="btn btn-outline-success my-2 my-sm-0"
-						type="submit">
-						Search
-					</button>
-				</form>
 			</div>
 		</nav>
 	);

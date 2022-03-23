@@ -4,7 +4,7 @@ export function Card(props) {
 	console.log(props);
 	const cardList = props.data.map((card, index) => {
 		return (
-			<div key={index} className="card" style={{ width: "18rem;" }}>
+			<div key={index} className="card " style={{ width: 450 }}>
 				<img
 					className="card-img-top "
 					src={card.url}
@@ -24,9 +24,12 @@ export function Card(props) {
 		<div
 			style={{
 				display: "flex",
-
+				marginTop: "60px",
+				justifyContent: "space-around",
+				height: "10cm",
 				flexDirection: "row",
 				flexWrap: "wrap",
+				backgroundColor: "black",
 			}}>
 			{cardList}
 		</div>
